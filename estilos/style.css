@@ -1,0 +1,123 @@
+h1{
+    color: rgb(139, 9, 89);
+    
+}h2{
+    color: rgb(16, 102, 4);
+}
+h3{
+    color: rgb(255, 0, 98);
+}
+ul{
+    color: rgb(138, 4, 138);
+}
+ol{
+    color:rgb(138, 4, 138)
+}
+body{
+    background-image: url(../img/fondo\ web.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+   
+}
+.tipoVerdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tipoHelvetica{
+   font-family:Helvetica, sans-serif;
+ }
+.icono {
+     font-size: 30px;
+     color: red;
+ }
+ article{
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background-color: rgb(240, 243, 231);
+ }
+ header{
+     font-family: cursive;
+     font-size: 25px;
+ }
+ footer{
+     font-family: fantasy;
+     font-size: 20px;
+ }
+ .Essen{
+     font-size: 30px;
+     color:blue;
+ }
+ .padre{
+     display: flex;
+     
+        
+ }
+ .btn1, .btn3 {
+     background-color: blue;
+     color: white;
+     
+ }
+ .btn2 {
+     background-color: turquoise;
+     color: white
+ }
+ .btn1,.btn2,.btn3 {
+     flex: 1;
+     font-family: sans-serif;
+     text-align: center;
+     
+ }
+ h1, h2{
+     padding-left: 530px;
+     border: 5px double rgb(220, 20, 153);
+     
+    }
+ .img{
+     padding-left:200px;
+ }
+ article{
+     padding-top: 20px;
+     
+ }
+ #contenedor{
+     margin: auto;
+    
+ }
+.p1, .p2{
+    clear: left;
+    width: 500px;
+    padding: 50px;
+    border: solid rgb(102, 4, 69);
+   
+}
+.btn1, .btn2, .btn3,:link{
+    color:red;
+}
+.btn1:hover{
+    background: rgb(210, 247, 250);
+    border:solid 4px cornflowerblue;
+    
+}
+.btn2:hover{
+    background: lightslategray;
+    border:solid 4px cornflowerblue;
+
+}
+.btn3:hover{
+    background: rgb(210, 247, 250);
+    border:solid 4px cornflowerblue; 
+    
+    
+}
+section{
+    background: plum;
+    display: flex;
+    flex-direction:column;
+    width: 500px;
+    margin-left: 400px;  
+
+}
+p{
+    font-family: cursive;
+    font-size: x-large;
+}
